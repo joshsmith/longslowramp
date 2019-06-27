@@ -1,4 +1,5 @@
 import React from 'react';
+import { Link } from 'gatsby'
 import styled from 'styled-components';
 
 const Outer = styled.div`
@@ -8,10 +9,25 @@ const Outer = styled.div`
 
 const TitleContainer = styled.div`
   display: flex;
-  padding: 1em;
+  padding: 0 1em;
   flex-direction: column;
   max-width: 800px;
   margin: auto;
+`
+
+const TitleLink = styled(Link)`
+  border-bottom: none;
+  padding: 1em 0;
+  text-decoration: none;
+
+  &, &:visited {
+    color: #212121;
+  }
+
+  &:active,
+  &:hover {
+    color: #1976D2;
+  }
 `
 
 const Ramp = styled.div`
@@ -29,7 +45,6 @@ const Ramp = styled.div`
 const Words = styled.div`
   font-family: "Nunito Sans", sans-serif;
   font-weight: 900;
-  color: #212121;
   width: 100%;
   margin-top: 20px;
   text-transform: uppercase;
@@ -77,12 +92,14 @@ const Word = styled.div`
 const Title = () => (
   <Outer>
     <TitleContainer>
-      <Ramp />
-      <Words>
-        <Word>Long</Word>
-        <Word>Slow</Word>
-        <Word>Ramp</Word>
-      </Words>
+      <TitleLink to="/">
+        <Ramp />
+        <Words>
+          <Word>Long</Word>
+          <Word>Slow</Word>
+          <Word>Ramp</Word>
+        </Words>
+      </TitleLink>
     </TitleContainer>
   </Outer>
 )
