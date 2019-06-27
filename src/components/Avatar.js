@@ -19,14 +19,19 @@ const Image = () => {
       placeholderImage: file(relativePath: { eq: "josh-smith.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 100) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      backgroundColor="#bb9d90"
+      fluid={data.placeholderImage.childImageSharp.fluid}
+    />
+  )
 }
 
 export default Image

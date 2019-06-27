@@ -19,14 +19,19 @@ const Sift = () => {
       placeholderImage: file(relativePath: { eq: "sift-twitter.png" }) {
         childImageSharp {
           fluid(maxWidth: 100) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      backgroundColor="#1d8bf1"
+      fluid={data.placeholderImage.childImageSharp.fluid}
+    />
+  )
 }
 
 export default Sift

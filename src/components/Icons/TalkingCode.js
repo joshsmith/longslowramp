@@ -19,14 +19,19 @@ const TalkingCode = () => {
       placeholderImage: file(relativePath: { eq: "talking-code.png" }) {
         childImageSharp {
           fluid(maxWidth: 100) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      backgroundColor="#4ad4dc"
+      fluid={data.placeholderImage.childImageSharp.fluid}
+    />
+  )
 }
 
 export default TalkingCode

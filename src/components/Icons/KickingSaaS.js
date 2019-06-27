@@ -19,14 +19,19 @@ const KickingSaaS = () => {
       placeholderImage: file(relativePath: { eq: "kicking-saas.jpg" }) {
         childImageSharp {
           fluid(maxWidth: 100) {
-            ...GatsbyImageSharpFluid
+            ...GatsbyImageSharpFluid_noBase64
           }
         }
       }
     }
   `)
 
-  return <Img fluid={data.placeholderImage.childImageSharp.fluid} />
+  return (
+    <Img
+      backgroundColor="#f7f7f7"
+      fluid={data.placeholderImage.childImageSharp.fluid}
+    />
+  )
 }
 
 export default KickingSaaS
