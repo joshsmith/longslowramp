@@ -10,12 +10,10 @@ const Podcasts = () => (
     <div>
       <Product>
         <SmallIcon>
-          <a href="http://www.kickingsaas.fm/">
-            <KickingSaaS />
-          </a>
+          <KickingSaaS />
         </SmallIcon>
         <ProductDetails>
-          <Badge block new>Coming Soon</Badge>
+          <Badge block new>Soon</Badge>
           <p>
             I will be co-hosting <strong>Kicking SaaS</strong> alongside my
             friend Joel Rendall, where we have weekly mental breakdowns together
@@ -30,7 +28,7 @@ const Podcasts = () => (
           </a>
         </SmallIcon>
         <ProductDetails>
-          <Badge block>Retired</Badge>
+          <Badge block>Past</Badge>
           <p>
             I co-hosted <a href="http://www.talkingcode.com/">Talking Code</a>{" "}
             with Venkat Dinavahi, where we played dumb on technical topics to
