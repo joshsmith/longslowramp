@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Arvo|Open+Sans:400,700&display=swap');
+
 html {
   font-family: sans-serif;
   -ms-text-size-adjust: 100%;
@@ -5,7 +7,6 @@ html {
 }
 body {
   margin: 0;
-  -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 article,
@@ -41,10 +42,16 @@ template {
 }
 a {
   background-color: transparent;
+  border-bottom: 2px solid #64B5F6;
+  color: #2196F3;
+  font-weight: 700;
+  text-decoration: none;
   -webkit-text-decoration-skip: objects;
 }
 a:active,
 a:hover {
+  border-bottom-color: #1976D2;
+  color: #1976D2;
   outline-width: 0;
 }
 abbr[title] {
@@ -112,6 +119,7 @@ select,
 textarea {
   font: inherit;
   margin: 0;
+  outline: none;
 }
 optgroup {
   font-weight: 700;
@@ -119,6 +127,26 @@ optgroup {
 button,
 input {
   overflow: visible;
+}
+input {
+  background: #BBDEFB;
+  color: #0D47A1;
+  padding: 4px 10px;
+}
+input:focus {
+  background: #E3F2FD;
+}
+button {
+  background: #2196F3;
+  border-radius: 5px;
+  color: #fff;
+  cursor: pointer;
+  font-size: 1em;
+  font-weight: 700;
+  padding: 4px 10px;
+}
+button:hover {
+  background: #1976D2;
 }
 button,
 select {
@@ -185,23 +213,32 @@ textarea {
   font: inherit;
 }
 html {
-  font: 112.5%/1.45em georgia, serif;
   box-sizing: border-box;
   overflow-y: scroll;
 }
 * {
+  border-width: 0;
+  border-style: solid;
+  border-color: #e2e8f0;
   box-sizing: inherit;
 }
 *:before {
+  border-width: 0;
+  border-style: solid;
+  border-color: #e2e8f0;
   box-sizing: inherit;
 }
 *:after {
+  border-width: 0;
+  border-style: solid;
+  border-color: #e2e8f0;
   box-sizing: inherit;
 }
 body {
   color: hsla(0, 0%, 0%, 0.8);
-  font-family: georgia, serif;
+  font-family: 'Open Sans', sans-serif;
   font-weight: normal;
+  line-height: 1.6em;
   word-wrap: break-word;
   font-kerning: normal;
   -moz-font-feature-settings: "kern", "liga", "clig", "calt";
@@ -218,7 +255,7 @@ img {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 h1 {
   margin-left: 0;
@@ -228,10 +265,9 @@ h1 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Arvo', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 2.25rem;
@@ -245,13 +281,12 @@ h2 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Arvo', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
-  font-size: 1.62671rem;
+  font-size: 1.6rem;
   line-height: 1.1;
 }
 h3 {
@@ -262,10 +297,9 @@ h3 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Arvo', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1.38316rem;
@@ -279,10 +313,9 @@ h4 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Arvo', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 1rem;
@@ -296,10 +329,9 @@ h5 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Arvo', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.85028rem;
@@ -313,10 +345,9 @@ h6 {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   color: inherit;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Arvo', serif;
   font-weight: bold;
   text-rendering: optimizeLegibility;
   font-size: 0.78405rem;
@@ -330,29 +361,29 @@ hgroup {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 ul {
-  margin-left: 1.45rem;
+  margin-left: 1rem;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   list-style-position: outside;
   list-style-image: none;
 }
 ol {
-  margin-left: 1.45rem;
+  margin-left: 1rem;
   margin-right: 0;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   list-style-position: outside;
   list-style-image: none;
 }
@@ -364,7 +395,7 @@ dl {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 dd {
   margin-left: 0;
@@ -374,7 +405,7 @@ dd {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 p {
   margin-left: 0;
@@ -384,7 +415,7 @@ p {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 figure {
   margin-left: 0;
@@ -394,13 +425,13 @@ figure {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 pre {
   margin-left: 0;
   margin-right: 0;
   margin-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   font-size: 0.85rem;
   line-height: 1.42;
   background: hsla(0, 0%, 0%, 0.04);
@@ -417,7 +448,7 @@ table {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
   font-size: 1rem;
   line-height: 1.45rem;
   border-collapse: collapse;
@@ -431,17 +462,17 @@ fieldset {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 blockquote {
-  margin-left: 1.45rem;
+  margin-left: 1rem;
   margin-right: 1.45rem;
   margin-top: 0;
   padding-bottom: 0;
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 form {
   margin-left: 0;
@@ -451,7 +482,7 @@ form {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 noscript {
   margin-left: 0;
@@ -461,7 +492,7 @@ noscript {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 iframe {
   margin-left: 0;
@@ -471,7 +502,7 @@ iframe {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 hr {
   margin-left: 0;
@@ -481,7 +512,7 @@ hr {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: calc(1.45rem - 1px);
+  margin-bottom: calc(1rem - 1px);
   background: hsla(0, 0%, 0%, 0.2);
   border: none;
   height: 1px;
@@ -494,7 +525,7 @@ address {
   padding-left: 0;
   padding-right: 0;
   padding-top: 0;
-  margin-bottom: 1.45rem;
+  margin-bottom: 1rem;
 }
 b {
   font-weight: bold;
@@ -509,7 +540,7 @@ th {
   font-weight: bold;
 }
 li {
-  margin-bottom: calc(1.45rem / 2);
+  margin-bottom: calc(1rem / 2);
 }
 ol li {
   padding-left: 0;
@@ -518,14 +549,14 @@ ul li {
   padding-left: 0;
 }
 li > ol {
-  margin-left: 1.45rem;
-  margin-bottom: calc(1.45rem / 2);
-  margin-top: calc(1.45rem / 2);
+  margin-left: 1rem;
+  margin-bottom: calc(1rem / 2);
+  margin-top: calc(1rem / 2);
 }
 li > ul {
-  margin-left: 1.45rem;
-  margin-bottom: calc(1.45rem / 2);
-  margin-top: calc(1.45rem / 2);
+  margin-left: 1rem;
+  margin-bottom: calc(1rem / 2);
+  margin-top: calc(1rem / 2);
 }
 blockquote *:last-child {
   margin-bottom: 0;
@@ -537,7 +568,7 @@ p *:last-child {
   margin-bottom: 0;
 }
 li > p {
-  margin-bottom: calc(1.45rem / 2);
+  margin-bottom: calc(1rem / 2);
 }
 code {
   font-size: 0.85rem;

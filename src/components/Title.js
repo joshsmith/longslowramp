@@ -10,7 +10,7 @@ const TitleContainer = styled.div`
   display: flex;
   padding: 1em;
   flex-direction: column;
-  max-width: 900px;
+  max-width: 800px;
   margin: auto;
 `
 
@@ -18,10 +18,11 @@ const Ramp = styled.div`
   width: 0;
   height: 0;
   border-style: solid;
-  border-width: 0px 0px 40px calc(100vw - 16px);
+  border-width: 0px 0px 40px calc(102vw - 16px);
   border-color: transparent transparent #03a9f4 transparent;
+  margin-left: -2vw;
   @media only screen and (max-width: 480px) {
-    border-width: 0px 0px 30px calc(100vw - 16px);
+    border-width: 0px 0px 30px calc(102vw - 16px);
   }
 `
 
@@ -30,7 +31,7 @@ const Words = styled.div`
   font-weight: 700;
   color: #212121;
   width: 100%;
-  margin-top: 10px;
+  margin-top: 20px;
   text-transform: uppercase;
   display: flex;
   justify-content: space-between;
