@@ -15,7 +15,7 @@ const Podcasts = () => (
           </a>
         </SmallIcon>
         <ProductDetails>
-          <Badge block new>Soon</Badge>
+          <Badge block new>Coming Soon</Badge>
           <p>
             I will be co-hosting <strong>Kicking SaaS</strong> alongside my
             friend Joel Rendall, where we have weekly mental breakdowns together
