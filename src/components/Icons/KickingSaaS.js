@@ -18,7 +18,7 @@ const KickingSaaS = () => {
     query {
       placeholderImage: file(relativePath: { eq: "kicking-saas.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 200) {
+          fluid(maxWidth: 100) {
             ...GatsbyImageSharpFluid_tracedSVG
           }
         }

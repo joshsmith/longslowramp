@@ -18,7 +18,7 @@ const TalkingCode = () => {
     query {
       placeholderImage: file(relativePath: { eq: "talking-code.png" }) {
         childImageSharp {
-          fluid(maxWidth: 200) {
+          fluid(maxWidth: 100) {
             ...GatsbyImageSharpFluid_tracedSVG
           }
         }
