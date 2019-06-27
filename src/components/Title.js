@@ -27,8 +27,8 @@ const Ramp = styled.div`
 `
 
 const Words = styled.div`
-  font-family: "Futura";
-  font-weight: 700;
+  font-family: "Nunito Sans", sans-serif;
+  font-weight: 900;
   color: #212121;
   width: 100%;
   margin-top: 20px;
@@ -36,9 +36,9 @@ const Words = styled.div`
   display: flex;
   justify-content: space-between;
   overflow: hidden;
-  
-   @media only screen and (max-width: 250px) {
-     flex-direction: row;
+
+  @media only screen and (max-width: 250px) {
+    flex-direction: row;
   }
 `
 
