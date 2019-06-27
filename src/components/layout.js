@@ -8,7 +8,7 @@
 import React, { Fragment } from "react"
 import PropTypes from "prop-types"
 
-import Title from "./title"
+import Title from "./Title"
 import "./layout.css"
 
 const Layout = ({ children }) => (
