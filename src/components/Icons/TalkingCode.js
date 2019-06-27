@@ -18,8 +18,8 @@ const TalkingCode = () => {
     query {
       placeholderImage: file(relativePath: { eq: "talking-code.png" }) {
         childImageSharp {
-          fluid(maxWidth: 200) {
-            ...GatsbyImageSharpFluid
+          fluid(maxWidth: 200, traceSVG: { color: "#1976D2" }) {
+            ...GatsbyImageSharpFluid_tracedSVG
           }
         }
       }
