@@ -18,7 +18,7 @@ const Sift = () => {
     query {
       placeholderImage: file(relativePath: { eq: "sift-twitter.png" }) {
         childImageSharp {
-          fluid(maxWidth: 200, traceSVG: { color: "#1976D2" }) {
+          fluid(maxWidth: 200) {
             ...GatsbyImageSharpFluid_tracedSVG
           }
         }

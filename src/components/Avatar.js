@@ -18,7 +18,7 @@ const Image = () => {
     query {
       placeholderImage: file(relativePath: { eq: "josh-smith.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 200, traceSVG: { color: "#1976D2" }) {
+          fluid(maxWidth: 200) {
             ...GatsbyImageSharpFluid_tracedSVG
           }
         }
