@@ -19,7 +19,7 @@ const Sift = () => {
       placeholderImage: file(relativePath: { eq: "sift-twitter.png" }) {
         childImageSharp {
           fluid(maxWidth: 100) {
-            ...GatsbyImageSharpFluid_tracedSVG
+            ...GatsbyImageSharpFluid
           }
         }
       }
