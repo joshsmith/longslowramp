@@ -36,7 +36,7 @@ const Layout = ({ children }) => (
       <p>
         <a
           href="https://twitter.com/joshsmith"
-          class="twitter-follow-button"
+          className="twitter-follow-button"
           data-size="large"
           data-show-count="false"
         >

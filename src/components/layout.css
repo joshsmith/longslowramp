@@ -48,6 +48,10 @@ a {
   text-decoration: none;
   -webkit-text-decoration-skip: objects;
 }
+a:visited {
+  border-bottom-color: #7986CB;
+  color: #3F51B5;
+}
 a:active,
 a:hover {
   border-bottom-color: #1976D2;
@@ -130,11 +134,14 @@ input {
 }
 input {
   background: #BBDEFB;
+  border: 1px solid #90CAF9;
   color: #0D47A1;
+  min-width: 100px;
   padding: 4px 10px;
 }
 input:focus {
   background: #E3F2FD;
+  border: 1px solid #2196F3;
 }
 button {
   background: #2196F3;
@@ -144,6 +151,7 @@ button {
   font-size: 1em;
   font-weight: 700;
   padding: 4px 10px;
+  white-space: nowrap;
 }
 button:hover {
   background: #1976D2;

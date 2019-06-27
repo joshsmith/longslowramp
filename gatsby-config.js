@@ -6,6 +6,12 @@ module.exports = {
   },
   plugins: [
     `gatsby-plugin-netlify-cms`,
+    {
+      resolve: "gatsby-plugin-mailchimp",
+      options: {
+        endpoint: "https://hellosift.us3.list-manage.com/subscribe/post?u=25b7cdaaf8652ed99f7511154&amp;id=534b1f2acf",
+      },
+    },
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
