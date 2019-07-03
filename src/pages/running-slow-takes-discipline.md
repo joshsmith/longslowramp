@@ -2,7 +2,7 @@
 templateKey: blog-post
 title: Running slow takes discipline
 date: 2019-07-03T09:39:46.393Z
-published: false
+published: true
 description: >-
   A couple years ago I learned that I had been running wrong most of my life –
   too hard and too fast. Slowing down has dramatically changed my understanding
