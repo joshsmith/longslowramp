@@ -1,9 +1,9 @@
 ---
 templateKey: blog-post
-date: 2019-07-03T09:39:46.393Z
 title: Running slow takes discipline
-featuredpost: true
-published: true
+date: 2019-07-03T09:39:46.393Z
+published: false
 description: Discipline of running slow
+featuredpost: true
 ---
 Test
