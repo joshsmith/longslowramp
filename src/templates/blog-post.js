@@ -4,6 +4,7 @@ import Helmet from "react-helmet"
 import { graphql } from "gatsby"
 import Layout from "../components/layout"
 import Content, { HTMLContent } from "../components/Content"
+import Newsletter from "../components/Newsletter"
 
 export const BlogPostTemplate = ({
   content,
@@ -20,14 +21,15 @@ export const BlogPostTemplate = ({
       <div className="container content">
         <div className="columns">
           <div className="column is-10 is-offset-1">
-            <h1 className="title is-size-2 has-text-weight-bold is-bold-light">
+            <h2 style={{marginTop: '2em'}}>
               {title}
-            </h1>
+            </h2>
             <p>{description}</p>
             <PostContent content={content} />
           </div>
         </div>
       </div>
+      <Newsletter />
     </section>
   )
 }
@@ -50,7 +52,7 @@ const BlogPost = ({ data }) => {
         contentComponent={HTMLContent}
         description={post.frontmatter.description}
         helmet={
-          <Helmet titleTemplate="%s | Blog">
+          <Helmet titleTemplate="%s | Long Slow Ramp">
             <title>{`${post.frontmatter.title}`}</title>
             <meta
               name="description"
