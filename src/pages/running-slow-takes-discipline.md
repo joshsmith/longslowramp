@@ -17,7 +17,7 @@ In high school, my fastest 5k time (\~3.1 miles) was around 18:40. And this was 
 
 But I thought the only way you could get faster was _to run fast_. How else would that possibly work?
 
-My thinking on this only changed after I wanted to get into running again in 2017 and I read the book _80/20 Running_ by Matt Fitzgerald. In a [good summary article](https://www.podiumrunner.com/train-slower-race-faster_52242) on the subject, Matt writes:
+My thinking on this only changed after I wanted to get into running again in 2017 and I read the book[ _80/20 Running_](https://www.amazon.com/80-20-Running-Stronger-Training-ebook/dp/B00IIVFAEY) by Matt Fitzgerald. In a [good summary article](https://www.podiumrunner.com/train-slower-race-faster_52242) on the subject, Matt writes:
 
 > Why do the fastest runners do most of their running at slow speeds? Because they run a lot, and if they ran a lot and did most of their running at high intensities they would quickly burn out. But you can also turn this answer upside down and say that elite runners run slowly most of the time _so that_ they can run a lot.
 
@@ -25,7 +25,7 @@ To put this in my own words, running slowly not only prevents burn out – tired
 
 You may not run, but the idea of pace almost certainly applies to you – and in particular to your work life. _Burnout_ sounds familiar to most of us. How many folks have you met who say (and often proudly) that they work 60-, 80-, 100-hour weeks? Or those who boast of sleeping only 3 or 4 hours per night?
 
-Admittedly, physiology varies widely between people. But there are widely published, well-known studies detailing the advantages of 7 to 9 hours per sleep of night for most people.
+Admittedly, physiology varies widely between people. But there are [widely published](https://www.sleepfoundation.org/excessive-sleepiness/support/how-much-sleep-do-we-really-need), well-known studies detailing the advantages of 7 to 9 hours per sleep of night for most people. And similar research is cropping up on [shorter work hours](https://hbr.org/2018/12/the-case-for-the-6-hour-workday).
 
 And in running? Your average runners appear to consistently overwork themselves, just like I did. Their training intensity typically breaks down to a split of 45% low intensity, 45% moderate intensity, and 10% high intensity.
 
