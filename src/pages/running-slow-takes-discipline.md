@@ -19,11 +19,7 @@ But I thought the only way you could get faster was _to run fast_. How else woul
 
 My thinking on this only changed after I wanted to get into running again in 2017 and I read the book _80/20 Running_ by Matt Fitzgerald. In a [good summary article](https://www.podiumrunner.com/train-slower-race-faster_52242) on the subject, Matt writes:
 
-> Why do the fastest runners do most of their running at slow speeds? Because they run a lot, and if they ran a lot and did most of their running at high intensities they would quickly burn out. But you can also turn this answer upside down and say that elite runners run slowly most of the time 
->
-> _so that_
->
->  they can run a lot.
+> Why do the fastest runners do most of their running at slow speeds? Because they run a lot, and if they ran a lot and did most of their running at high intensities they would quickly burn out. But you can also turn this answer upside down and say that elite runners run slowly most of the time _so that_ they can run a lot.
 
 To put this in my own words, running slowly not only prevents burn out – tiredness, injuries, and so on – but also allows runners to run more. When I was out there leaving it all on the sidewalk, maxing out my effort on nearly every run, I was setting an invisible upper limit on the amount I could train altogether.
 
