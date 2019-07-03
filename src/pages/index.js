@@ -6,6 +6,7 @@ import Intro from "../components/Intro"
 import Newsletter from "../components/Newsletter"
 import Podcasts from "../components/Podcasts"
 import Products from "../components/Products"
+import Articles from "../components/Articles"
 import Contact from "../components/Contact"
 
 const IndexPage = () => (
@@ -15,6 +16,7 @@ const IndexPage = () => (
     <Newsletter />
     <Podcasts />
     <Products />
+    <Articles />
     <Contact />
   </Layout>
 )
