@@ -14,9 +14,9 @@ const IndexPage = () => (
     <SEO title="Long Slow Ramp" />
     <Intro />
     <Newsletter />
-    <Podcasts />
     <Products />
     <Articles />
+    <Podcasts />
     <Contact />
   </Layout>
 )
