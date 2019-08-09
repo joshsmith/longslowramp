@@ -1,26 +1,12 @@
 import React from 'react'
 
 import { Badge, Product, ProductDetails, Section, SmallIcon } from "./Basic"
-import KickingSaaS from "./Icons/KickingSaaS"
 import TalkingCode from "./Icons/TalkingCode"
 
 const Podcasts = () => (
   <Section>
     <h3>Podcasts</h3>
     <div>
-      <Product>
-        <SmallIcon>
-          <KickingSaaS />
-        </SmallIcon>
-        <ProductDetails>
-          <Badge block new>Soon</Badge>
-          <p>
-            I will be co-hosting <strong>Kicking SaaS</strong> alongside my
-            friend Joel Rendall, where we have weekly mental breakdowns together
-            over our SaaS businesses.
-          </p>
-        </ProductDetails>
-      </Product>
       <Product>
         <SmallIcon>
           <a href="http://www.talkingcode.com">
