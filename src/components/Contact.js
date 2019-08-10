@@ -1,4 +1,5 @@
 import React from "react"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 import { Section } from "./Basic"
 
@@ -7,7 +8,11 @@ const Products = () => (
     <h3>Say hello</h3>
     <div>
       <p>
-        Follow me on <a href="https://twitter.com/joshsmith">Twitter</a> or email me at josh [at] hellosift.com
+        Follow me on{" "}
+        <OutboundLink href="https://twitter.com/joshsmith">
+          Twitter
+        </OutboundLink>{" "}
+        or email me at josh [at] hellosift.com
       </p>
     </div>
   </Section>

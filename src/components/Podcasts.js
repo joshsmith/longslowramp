@@ -1,4 +1,5 @@
-import React from 'react'
+import React from "react"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 import { Badge, Product, ProductDetails, Section, SmallIcon } from "./Basic"
 import TalkingCode from "./Icons/TalkingCode"
@@ -9,14 +10,17 @@ const Podcasts = () => (
     <div>
       <Product>
         <SmallIcon>
-          <a href="http://www.talkingcode.com">
+          <OutboundLink href="http://www.talkingcode.com">
             <TalkingCode />
-          </a>
+          </OutboundLink>
         </SmallIcon>
         <ProductDetails>
           <Badge block>Past</Badge>
           <p>
-            I co-hosted <a href="http://www.talkingcode.com/">Talking Code</a>{" "}
+            I co-hosted{" "}
+            <OutboundLink href="http://www.talkingcode.com/">
+              Talking Code
+            </OutboundLink>{" "}
             with Venkat Dinavahi, where we played dumb on technical topics to
             help newbies better understand them.
           </p>

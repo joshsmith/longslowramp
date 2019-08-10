@@ -1,5 +1,6 @@
 import React from "react"
 import styled from "styled-components"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 import { LargeIcon } from "./Basic"
 import Avatar from "./Avatar"
@@ -36,7 +37,8 @@ const Intro = () => (
           Hey there, I'm Josh.
         </p>
         <p>
-          Right now I'm building <a href="https://hellosift.com">Sift</a>, which
+          Right now I'm building{" "}
+          <OutboundLink href="https://hellosift.com">Sift</OutboundLink>, which
           helps products like mine find product market fit and keep it.
         </p>
       </IntroText>

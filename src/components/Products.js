@@ -1,4 +1,5 @@
 import React from "react"
+import { OutboundLink } from "gatsby-plugin-google-analytics"
 
 import { Badge, Product, ProductDetails, Section, SmallIcon } from "./Basic"
 import Sift from "./Icons/Sift"
@@ -9,15 +10,18 @@ const Products = () => (
     <div>
       <Product>
         <SmallIcon>
-          <a href="https://hellosift.com">
+          <OutboundLink href="https://hellosift.com">
             <Sift />
-          </a>
+          </OutboundLink>
         </SmallIcon>
         <ProductDetails>
-          <Badge block now>Now</Badge>
+          <Badge block now>
+            Now
+          </Badge>
           <p>
-            <a href="https://hellosift.com">Sift</a> is a customer development
-            tool that helps you find and keep product market fit.
+            <OutboundLink href="https://hellosift.com">Sift</OutboundLink> is a
+            customer development tool that helps you find and keep product
+            market fit.
           </p>
         </ProductDetails>
       </Product>
