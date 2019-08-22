@@ -4964,14 +4964,14 @@ gatsby-plugin-netlify@^2.1.3:
     lodash "^4.17.14"
     webpack-assets-manifest "^3.0.2"
 
-gatsby-plugin-offline@^2.2.4:
-  version "2.2.5"
-  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-2.2.5.tgz#65a2ce3ccabe8cf7e6763be07a4d51b8fdd65ca6"
+gatsby-plugin-offline@^2.2.9:
+  version "2.2.9"
+  resolved "https://registry.yarnpkg.com/gatsby-plugin-offline/-/gatsby-plugin-offline-2.2.9.tgz#b1a2f3e4b07496eadacc129a68d02aab66219212"
   dependencies:
     "@babel/runtime" "^7.0.0"
-    cheerio "^1.0.0-rc.2"
-    idb-keyval "^3.1.0"
-    lodash "^4.17.14"
+    cheerio "^1.0.0-rc.3"
+    idb-keyval "^3.2.0"
+    lodash "^4.17.15"
     slash "^3.0.0"
     workbox-build "^3.6.3"
 
@@ -6079,7 +6079,7 @@ icss-utils@^2.1.0:
   dependencies:
     postcss "^6.0.1"
 
-idb-keyval@^3.1.0:
+idb-keyval@^3.2.0:
   version "3.2.0"
   resolved "https://registry.yarnpkg.com/idb-keyval/-/idb-keyval-3.2.0.tgz#cbbf354deb5684b6cdc84376294fc05932845bd6"
 
