@@ -641,9 +641,9 @@
     "@babel/plugin-transform-react-jsx-self" "^7.0.0"
     "@babel/plugin-transform-react-jsx-source" "^7.0.0"
 
-"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.3", "@babel/runtime@^7.4.5":
-  version "7.5.5"
-  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.5.5.tgz#74fba56d35efbeca444091c7850ccd494fd2f132"
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.2", "@babel/runtime@^7.2.0", "@babel/runtime@^7.4.2", "@babel/runtime@^7.4.3", "@babel/runtime@^7.4.5", "@babel/runtime@^7.6.2":
+  version "7.6.2"
+  resolved "https://registry.yarnpkg.com/@babel/runtime/-/runtime-7.6.2.tgz#c3d6e41b304ef10dcf13777a33e7694ec4a9a6dd"
   dependencies:
     regenerator-runtime "^0.13.2"
 
@@ -5043,20 +5043,21 @@ gatsby-remark-copy-linked-files@^2.1.3:
     probe-image-size "^4.0.0"
     unist-util-visit "^1.3.0"
 
-gatsby-remark-images@^3.1.6:
-  version "3.1.8"
-  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.1.8.tgz#64491e00076881feff9ea27bf44fabf93f8a0c85"
+gatsby-remark-images@^3.1.25:
+  version "3.1.25"
+  resolved "https://registry.yarnpkg.com/gatsby-remark-images/-/gatsby-remark-images-3.1.25.tgz#a252bdf8ce3d0bb9b2d3850fc5840b1d48921732"
   dependencies:
-    "@babel/runtime" "^7.0.0"
-    cheerio "^1.0.0-rc.2"
-    is-relative-url "^2.0.0"
-    lodash "^4.17.14"
-    mdast-util-definitions "^1.2.0"
-    potrace "^2.1.1"
-    query-string "^6.1.0"
-    slash "^1.0.0"
+    "@babel/runtime" "^7.6.2"
+    chalk "^2.4.2"
+    cheerio "^1.0.0-rc.3"
+    is-relative-url "^3.0.0"
+    lodash "^4.17.15"
+    mdast-util-definitions "^1.2.4"
+    potrace "^2.1.2"
+    query-string "^6.8.3"
+    slash "^3.0.0"
     unist-util-select "^1.5.0"
-    unist-util-visit-parents "^2.0.1"
+    unist-util-visit-parents "^2.1.2"
 
 gatsby-remark-relative-images@^0.2.2:
   version "0.2.3"
@@ -6675,6 +6676,12 @@ is-relative-url@^2.0.0:
   dependencies:
     is-absolute-url "^2.0.0"
 
+is-relative-url@^3.0.0:
+  version "3.0.0"
+  resolved "https://registry.yarnpkg.com/is-relative-url/-/is-relative-url-3.0.0.tgz#f623c8e26baa5bd3742b3b7ec074f50f3b45b3f3"
+  dependencies:
+    is-absolute-url "^3.0.0"
+
 is-relative@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/is-relative/-/is-relative-1.0.0.tgz#a1bb6935ce8c5dba1e8b9754b9b2dcc020e2260d"
@@ -7405,7 +7412,7 @@ mdast-util-compact@^1.0.0:
   dependencies:
     unist-util-visit "^1.1.0"
 
-mdast-util-definitions@^1.2.0, mdast-util-definitions@^1.2.3:
+mdast-util-definitions@^1.2.0, mdast-util-definitions@^1.2.3, mdast-util-definitions@^1.2.4:
   version "1.2.4"
   resolved "https://registry.yarnpkg.com/mdast-util-definitions/-/mdast-util-definitions-1.2.4.tgz#2b54ad4eecaff9d9fcb6bf6f9f6b68b232d77ca7"
   dependencies:
@@ -9259,7 +9266,7 @@ postcss@^7.0.0, postcss@^7.0.1, postcss@^7.0.17, postcss@^7.0.5:
     source-map "^0.6.1"
     supports-color "^6.1.0"
 
-potrace@^2.1.1:
+potrace@^2.1.1, potrace@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/potrace/-/potrace-2.1.2.tgz#61473a326be1e734abac6d14d54e1880eed35471"
   dependencies:
@@ -9482,9 +9489,9 @@ query-string@^5.0.1:
     object-assign "^4.1.0"
     strict-uri-encode "^1.0.0"
 
-query-string@^6.1.0:
-  version "6.8.2"
-  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.8.2.tgz#36cb7e452ae11a4b5e9efee83375e0954407b2f6"
+query-string@^6.8.3:
+  version "6.8.3"
+  resolved "https://registry.yarnpkg.com/query-string/-/query-string-6.8.3.tgz#fd9fb7ffb068b79062b43383685611ee47777d4b"
   dependencies:
     decode-uri-component "^0.2.0"
     split-on-first "^1.0.0"
@@ -11904,7 +11911,7 @@ unist-util-visit-parents@^1.1.1:
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-1.1.2.tgz#f6e3afee8bdbf961c0e6f028ea3c0480028c3d06"
 
-unist-util-visit-parents@^2.0.0, unist-util-visit-parents@^2.0.1:
+unist-util-visit-parents@^2.0.0, unist-util-visit-parents@^2.1.2:
   version "2.1.2"
   resolved "https://registry.yarnpkg.com/unist-util-visit-parents/-/unist-util-visit-parents-2.1.2.tgz#25e43e55312166f3348cae6743588781d112c1e9"
   dependencies:
